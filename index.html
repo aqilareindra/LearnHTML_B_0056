@@ -1,104 +1,227 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reindra-Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pertemuan 2</title>
-</head>
-
-<body>
-    
+  <body>
     <header>
-        <p>This is Header</p>
-        <div>
-            <a href="#about-me">About</a>
-            <a href="#Project">Project</a>
-            <a href="#Contact">contact</a>
-            <a href="#Skills">Skills</a>
-        </div>
-        
+      <h1>Reindra <span class="accent">.</span></h1>
+      <nav>
+        <a href="#about-me">About</a>
+        <a href="#Project">Project</a>
+        <a href="#Contact">contact</a>
+        <a href="#Skills">Skills</a>
+      </nav>
     </header>
-    
+
     <main>
-        <section id="about-me">
-            <h2>About me</h2>
-            <p>Hello <br>my name is Joko</p>
+      <!-- About me -->
+      <section id="about-me">
+        <div class="hero-kiri">
+          <h2>About me</h2>
+          <p>Hello <br />my name is Reindra Iftikhar Aqila</p>
 
-            <p>i'm software engineer</p>
-            <p>i'm from Informatic UISI</p>
+          <p>i'm software engineer</p>
+          <p>i'm from Informatic UISI</p>
 
-            <img src="Me.png" alt="">
-            
+          <div class="hero-tombol">
+            <button class="btn-primary">Got a project</button>
+            <button class="btn-outline">My resume</button>
+          </div>
+        </div>
 
-        </section>
+        <div class="hero-kanan">
+          <div class="hero-img-wrapper">
+            <img src="Me.png" alt="" />
+          </div>
+        </div>
+      </section>
 
-        <section id="Project">
-            <h2>My Project</h2>
+      <section id="riwayat">
+        <div class="judul">
+          <h2>Riwayat Pendidikan & Pekerjaan</h2>
+
+          <div class="riwayat-wrapper">
+            <div class="kolom-riwayat">
+              <h2>Pendidikan</h2>
+              <div class="item-riwayat">
+                <div class="konten-riwayat">
+                  <h3>Informatika</h3>
+                  <p>UISI (Universitas Internasional Semen Indonesia)</p>
+                  <span class="tanggal">2024-sekarang</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="kolom-riwayat">
+              <h2>Pekerjaan</h2>
+              <div class="item-riwayat">
+                <div class="konten-riwayat">
+                  <h3>EO</h3>
+                  <p>Event Organizer</p>
+                  <span class="deskripsi"> penyedia jasa profesional yang bertugas merencanakan, mengelola, dan mengeksekusi acara secara profesional, mulai dari konsep, anggaran, koordinasi vendor, hingga pelaksanaan teknis di lapangan</span>
+                  <span class="tanggal">2023-2024</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Project -->
+      <section id="Project">
+        <h2>My Project</h2>
+
+
+        <!-- Project -->
+
+        <div class="project-grid">
+          <article>
+            <div class="project-img">
+              <img src="pos.png" alt="" />
+            </div>
+
+            <div class="project-body">
+              <h3>Company Profiles</h3>
+              <p>this is company profile website</p>
+
+            <button>Lihat Project</button>
+        </div>
+          </article>
 
             <article>
-                <h3>Company Profiles</h3>
-                <img src="Me.png" alt="">
-                <p>this is company profile website</p>
-                <button>Lihat Project</button>
-            </article>
+            <div class="project-img">
+              <img src="inventory.png" alt="" />
+            </div>
+
+            <div class="project-body">
+              <h3>Website Inventory</h3>
+              <p>this is website inventory</p>
+            
+            <button>Lihat Project</button>
+            </div>
+          </article>
 
             <article>
-                <h3>Company Profiles</h3>
-                <img src="Me.png" alt="">
-                <p>this is Website Inventory</p>
-                <button>Lihat Project</button>
-            </article>
-        </section>
+            <div class="project-img">
+              <img src="pos.png" alt="" />
+            </div>
 
-        <section id="Skills">
-
-            <h2>My Skills</h2>
-            <ul>
-                <li>Html</li>
-                <li>Css</li>
-                <li>Javascript</li>
-            </ul>
-
-        </section>
-
-        <section id="Contact">
-
-            <h2>Contact</h2>
-
-            <article>
-                <p>Phone: </p>
-            <p>Email:</p>
-            <p>Instagram: </p>
-            </article>
+            <div class="project-body">
+              <h3>Company Profiles</h3>
+              <p>this is company profile website</p>
             
-            <h2>Send me message</h2>
-            <form action="">
 
-                <div>
-                    <label for="name">name</label>
-                    <input type="text" id="name" name="name" placeholder="Input your name">
-                </div> <br>
+            <button>Lihat Project</button>
+            </div>
+          </article>
 
-                <div>
-                 <label for="message">message</label>
-                    <input type="text" id="message" name="message" placeholder="Input your message">
-                </div> <br>
+      </section>
 
-                <button>submit</button>
+      <!-- Skills -->
 
-            </form>
+      <section id="Skills">
+        <h2>My Skills</h2>
+        <ul>
+          <li>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" 
+            alt="html">
+            <p>HTML</p>
+          </li>
+          <li>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" 
+            alt="css">
+            <p>CSS</p>
+          </li>
+          <li>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+             alt="javascript">
+             <p>JavaScript</p>
+          </li>
+        </ul>
+      </section>
 
-        </section>
 
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            
-    </main>
+      <!-- Contact -->
 
-    <footer>
-        <p>copyright by author</p>
-    </footer>
+      <section id="Contact">
+        <span class="section-label">Get in Touch</span>
+        <h2>Contact Me</h2>
+        <p class="section-desc">
+          Have a question or want to work together? Drop me a message!
+        </p>
 
-</body>
+        <div class="Contact-wrapper">
+          <div class="Contact-info">
+          <h3>Let's connect</h3>
+          <div class="info-item">
+            <span class="info-icon">&#9993;</span>
+            <div>
+              <p class="info-label">Email</p>
+              <p>Reindra@example.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">&#9742;</span>
+            <div>
+              <p class="info-label">Phone</p>
+              <p>+62 859-7489-3903</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">&#9873;</span>
+            <div>
+              <p class="info-label">Location</p>
+              <p>Surabaya, Indonesia</p>
+            </div>
+          </div>
+        </div>
 
+
+      <div class="Contact-form">
+        <h3>Send me a message</h3>
+        <form action="">
+          <div>
+            <label for="name">Nama</label>
+            <input 
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Masukkan nama anda" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input 
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Masukkan email anda" />
+          </div>
+          <div>
+            <label for="message">Pesan</label>
+            <textarea 
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Masukkan pesan anda"></textarea>
+          </div>
+          <button type="submit">Kirim pesan</button>
+        </form>        
+      </div>
+    </div>
+  </section>
+</main>
+
+      
+    
+
+    <div class="footer">
+      <p>&copy; 2026 Reindra. </p>
+    </div>
+  </body>
 </html>
