@@ -145,48 +145,40 @@ nav a:hover {
 }
 
 /* Riwayat */
-#riwayat {
-    padding: 80px 10%;
-    background-color: #0d1117;
-    color: white;
+.isi-konten {
+    padding: 60px 4.5rem;
+    background-color: #0d1117; 
+    
 }
 
-.judul h2{
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 50px;
+.isi-konten h2 {
+    font-size: 2rem;
     font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #3a7ce0;
 }
 
-.riwayat-wrapper {
+.wadah-item {
+    padding: 1rem;
     display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-
-.kolom-riwayat {
-    flex: 1;
-    min-width: 300px;
-}
-
-.kolom-riwayat h2 {
-    font-size: 1.5rem;
-    margin-bottom: 25px;
-    color: #3b82f6;
-    border-bottom: 2px solid #1e293b;
-    padding-bottom: 10px;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 850px; 
+    margin: 0 auto;   
+    text-align: left;
 }
 
 .item-riwayat {
-    margin-bottom: 20px;
+    width: 100%;
 }
 
 .konten-riwayat {
-    background: #161b22 ;
-    padding: 25px;
+    background: #161b22; 
+    padding: 30px;
     border-radius: 15px;
-    border: 1px solid transparent;
-    transition: all 0.3 ease;
+    border: 1px solid #21262d;
+    transition: all 0.3s ease;
 }
 
 .konten-riwayat:hover {
@@ -196,33 +188,35 @@ nav a:hover {
 }
 
 .konten-riwayat h3 {
-    margin: 0;
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 8px;
 }
 
 .konten-riwayat p {
     color: #94a3b8;
-    margin: 8px 0;
-    font-size: 1rem;
+    margin-bottom: 12px;
+}
+
+.deskripsi-teks {
+    font-size: 0.95rem;
+    color: #c9d1d9 !important;
+    line-height: 1.6;
+    margin-bottom: 20px !important;
+}
+
+
+.wadah-tanggal {
+    display: inline-block;
 }
 
 .tanggal {
-    display: inline-block;
-    background: rgba(59, 130, 246, 0.1);
+    background: rgba(58, 124, 224, 0.1);
     color: #3a7ce0;
-    padding: 5px 15px;
+    padding: 6px 16px;
     border-radius: 8px;
     font-size: 0.85rem;
     font-weight: 600;
-    margin-top: 5px;
-}
-
-.deskripsi {
-    margin-top: 15px;
-    font-size: 0.95rem;
-    color: #cbd5e1;
-    line-height: 1.6;
 }
 
 
